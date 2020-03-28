@@ -33,21 +33,23 @@ brew install python3
 brew install wget
 brew install screen
 brew install mysql
+brew install postgresql
+brew install mongodb
 brew install ruby
 brew install rbenv
-brew install racket
 brew install heroku
-brew install leiningen
 brew install maven
-brew install mongodb
-brew install postgresql
 brew install redis
 brew install spark
 brew install tree
 brew install emacs
-brew install jq
 brew install the_silver_searcher
 brew install --with-x11 homebrew/science/r
+
+# Non-essentials/Uncommented if needed
+# brew install leiningen
+# brew install racket
+# brew install jq
 
 echo "Basic brew packages installed."
 
