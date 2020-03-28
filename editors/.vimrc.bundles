@@ -1,0 +1,16 @@
+set nocompatible              " be iMproved, required for vundle
+filetype off                  " required for vundle
+set rtp+=~/.vim/bundle/Vundle.vim
+
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'            " Package manager
+Plugin 'vim-airline/vim-airline'         " Statusline
+Plugin 'vim-airline/vim-airline-themes'  " Statusline customization
+Plugin 'ctrlpvim/ctrlp.vim'              " Fuzzy search / explorer
+Plugin 'tpope/vim-fugitive'              " Git client
+
+" All of the Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+
