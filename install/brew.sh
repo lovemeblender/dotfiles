@@ -45,6 +45,7 @@ brew install tree
 brew install emacs
 brew install the_silver_searcher
 brew install --with-x11 homebrew/science/r
+brew install docker docker-compose
 
 # Non-essentials/Uncommented if needed
 # brew install leiningen
